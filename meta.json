@@ -1,0 +1,31 @@
+{
+  "about": {
+    "homepage": "https://www.ladle.dev",
+    "github": "https://github.com/tajo/ladle",
+    "version": 1
+  },
+  "stories": {
+    "demo--world": {
+      "name": "World",
+      "levels": [
+        "Demo"
+      ],
+      "locStart": 5,
+      "locEnd": 5,
+      "filePath": "src/demo/demo.stories.tsx",
+      "namedExport": "World",
+      "meta": {}
+    },
+    "hello--world": {
+      "name": "World",
+      "levels": [
+        "Hello"
+      ],
+      "locStart": 5,
+      "locEnd": 5,
+      "filePath": "src/sample/hello.stories.tsx",
+      "namedExport": "World",
+      "meta": {}
+    }
+  }
+}
