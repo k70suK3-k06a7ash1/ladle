@@ -6,6 +6,8 @@
   "scripts": {
     "serve": "ladle serve",
     "build": "ladle build && ladle preview -p 61000",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test:dev": "TYPE=dev pnpm exec playwright test",
     "test": "pnpm exec playwright test",
     "test:update": "pnpm exec playwright test -u"
@@ -14,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
