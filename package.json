@@ -29,5 +29,5 @@
     "@types/node": "^20.11.16",
     "sync-fetch": "^0.5.2"
   },
-  "homepage": "https://2814109.github.io/ladle/"
+  "homepage": "https://2814109.github.io/ladle"
 }
