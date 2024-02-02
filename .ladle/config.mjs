@@ -1,4 +1,4 @@
 /** @type {import('@ladle/react').UserConfig} */
 export default {
-  base: "/ladle/",
+  base: "/ladle", // #repo name
 };
