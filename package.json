@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "serve": "ladle serve",
-    "build": "ladle build && ladle preview -p 61000",
+    "build": "ladle build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "git": "git add . && git commit -m 'deploy' && git push origin main",
+    "deploy": "npm run rm && npm run build && npm run mv && npm run git",
+    "rm": "rm -rf docs",
+    "mv": "mv build docs",
     "test:dev": "TYPE=dev pnpm exec playwright test",
     "test": "pnpm exec playwright test",
     "test:update": "pnpm exec playwright test -u"
