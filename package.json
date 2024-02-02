@@ -4,19 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:ladle": "npx ladle serve",
+    "ladle:test": "playwright test",
+    "ladle:test:update": "playwright test -u"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ladle/react": "^4.0.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sync-fetch": "^0.5.2"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@ladle/react": "^4.0.2",
     "@playwright/test": "^1.41.2",
-    "@types/node": "^20.11.16"
+    "@types/node": "^20.11.16",
+    "sync-fetch": "^0.5.2"
   }
 }
