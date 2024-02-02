@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:ladle": "npx ladle serve",
-    "ladle:test": "playwright test",
-    "ladle:test:update": "playwright test -u"
+    "serve": "ladle serve",
+    "build": "ladle build && ladle preview -p 61000",
+    "test:dev": "TYPE=dev pnpm exec playwright test",
+    "test": "pnpm exec playwright test",
+    "test:update": "pnpm exec playwright test -u"
   },
   "keywords": [],
   "author": "",
