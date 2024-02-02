@@ -1,1 +1,0 @@
-import{j as e}from"./index-nSQRfP-F.js";const t=()=>e.jsx(e.Fragment,{children:"hello"}),n=()=>e.jsx(t,{});typeof window<"u"&&window.document&&window.document.createElement&&document.documentElement.setAttribute("data-storyloaded","");export{n as World};

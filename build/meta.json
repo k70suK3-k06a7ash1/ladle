@@ -10,8 +10,8 @@
       "levels": [
         "Hello"
       ],
-      "locStart": 4,
-      "locEnd": 4,
+      "locStart": 5,
+      "locEnd": 5,
       "filePath": "src/sample/hello.stories.tsx",
       "namedExport": "World",
       "meta": {}
