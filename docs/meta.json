@@ -5,14 +5,25 @@
     "version": 1
   },
   "stories": {
+    "button--index": {
+      "name": "Index",
+      "levels": [
+        "Button"
+      ],
+      "locStart": 2,
+      "locEnd": 2,
+      "filePath": "src/catalog/button/button.stories.tsx",
+      "namedExport": "index",
+      "meta": {}
+    },
     "demo--world": {
       "name": "World",
       "levels": [
         "Demo"
       ],
-      "locStart": 5,
-      "locEnd": 5,
-      "filePath": "src/demo/demo.stories.tsx",
+      "locStart": 4,
+      "locEnd": 4,
+      "filePath": "src/catalog/demo/demo.stories.tsx",
       "namedExport": "World",
       "meta": {}
     },
@@ -21,9 +32,9 @@
       "levels": [
         "Hello"
       ],
-      "locStart": 5,
-      "locEnd": 5,
-      "filePath": "src/sample/hello.stories.tsx",
+      "locStart": 4,
+      "locEnd": 4,
+      "filePath": "src/catalog/sample/hello.stories.tsx",
       "namedExport": "World",
       "meta": {}
     }
